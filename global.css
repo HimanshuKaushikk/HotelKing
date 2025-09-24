@@ -1,0 +1,95 @@
+:root {
+  /* Luxury color palette */
+  --color-primary: #1a1a2e; /* Deep navy blue */
+  --color-secondary: #bfa14a; /* Elegant gold */
+  --color-accent: #f0c674; /* Soft gold accent */
+  --color-background: #f9f7f1; /* Light cream */
+  --color-text-primary: #ffffff; /* Dark text */
+  --color-text-secondary: #666666; /* Secondary text */
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-primary: 'Playfair Display', serif; /* Elegant serif for headings */
+  --font-secondary: 'Open Sans', sans-serif; /* Clean sans-serif for body */
+
+  /* Other variables */
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-secondary);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+button, input, select {
+  font-family: var(--font-secondary);
+  border-radius: var(--border-radius);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
