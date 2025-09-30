@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - HotelKing</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation Header -->
+    <nav class="nav-container">
+        <div class="nav-brand">
+            <h1 class="logo">HotelKing</h1>
+            <p class="tagline">Luxury Redefined</p>
+        </div>
+        <div class="nav-contact">
+            <p><i class='bx bx-phone'></i>+91-7828246801</p>
+            <p><i class='bx bx-envelope'></i> reservations@luxuryhotelking.com</p>
+        </div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../Rooms/rooms.html" class="nav-link">Rooms</a></li>
+                <li><a href="../Services/services.html" class="nav-link">Services</a></li>
+                <li><a href="../Gallery/gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="../Contact/contact.html" class="nav-link">Contact</a></li>
+                <li><a href="../Sign in/signin.html" class="nav-link active">Sign In</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+
+                </div>
+                <span>Register with E-mail</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter password">
+                <button>Sign Up</button>
+            </form>
+
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+
+                </div>
+                <span>Login with Email & Password</span>
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter password">
+                <a href="#">Forgot Password</a>
+                <button>Sign In</button>
+            </form>
+
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome To HOTELKING </h1>
+                    <p>Sign in With ID & Password</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>....Welcome....</h1>
+                    <p>Register For Better Hotel Experience</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

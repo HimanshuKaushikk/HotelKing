@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> HOTEL KING - Premium Hotel Booking Experience</title>
+  <link rel="stylesheet" href="./global.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header with Navigation -->
+  <header class="luxury-header">
+    <nav class="nav-container">
+      <div class="nav-brand">
+        <h1 class="logo"> HOTEL KING</h1>
+        <p class="tagline">Where Elegance Meets Comfort</p>
+      </div>
+      
+      <div class="nav-contact">
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> +91-7828246801</p>
+          <p><i class="fas fa-envelope"></i> reservations@luxuryhotelking.com</p>
+        </div>
+      </div>
+
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">HOME</a></li>
+          <li><a href="About/about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="Services/services.html" class="nav-link">SERVICES</a></li>
+          <li><a href="Rooms/rooms.html" class="nav-link">ROOMS</a></li>
+          <li><a href="Gallery/gallery.html" class="nav-link">GALLERY</a></li>
+          <li><a href="Contact/contact.html" class="nav-link">CONTACT</a></li>
+          <li><a href="Sign in/signin.html" class="nav-link">SIGN UP</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h3 class="hero-subtitle">— EXQUISITE LUXURY LIVING —</h3>
+        <h1 class="hero-title">Discover A World of Unparalleled Luxury</h1>
+        <p class="hero-description">
+          Experience the epitome of sophistication and comfort at Luxury Hotel King. 
+          Where every moment is crafted to perfection and every stay becomes a cherished memory.
+        </p>
+        <div class="hero-buttons">
+          <a href="./Rooms/rooms.html" class="btn btn-primary">EXPLORE ROOMS</a>
+          <a href="#" class="btn btn-secondary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-subtitle">— CAPTIVATING VISUALS —</h3>
+        <h2 class="section-title">Our Gallery</h2>
+        <p class="section-description">
+          Explore the stunning visuals of Luxury Hotel King, showcasing our exquisite rooms, amenities, and breathtaking views.
+        </p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Luxury Booking Widget -->
+    <div class="booking-widget">
+      <div class="booking-container">
+        <h3 class="booking-title">RESERVE YOUR LUXURY STAY</h3>
+        <form class="booking-form">
+          <div class="form-group">
+            <label for="check-in"><i class="fas fa-calendar-alt"></i> CHECK IN</label>
+            <input type="date" id="check-in" name="check-in" required>
+          </div>
+          <div class="form-group">
+            <label for="check-out"><i class="fas fa-calendar-alt"></i> CHECK OUT</label>
+            <input type="date" id="check-out" name="check-out" required>
+          </div>
+          <div class="form-group">
+            <label for="adults"><i class="fas fa-user"></i> ADULTS</label>
+            <select id="adults" name="adults">
+              <option value="1">1 Adult</option>
+              <option value="2">2 Adults</option>
+              <option value="3">3 Adults</option>
+              <option value="4">4 Adults</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="children"><i class="fas fa-child"></i> CHILDREN</label>
+            <select id="children" name="children">
+              <option value="0">No Children</option>
+              <option value="1">1 Child</option>
+              <option value="2">2 Children</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-booking">
+            <i class="fas fa-search"></i> CHECK AVAILABILITY
+          </button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Luxury Features Section -->
+  <section class="luxury-features">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-subtitle">— PREMIUM AMENITIES —</h3>
+        <h2 class="section-title">Experience Unmatched Luxury</h2>
+        <p class="section-description">
+          Discover the exceptional amenities that make your stay at Luxury Hotel King truly unforgettable
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-concierge-bell"></i>
+          </div>
+          <h4>24/7 Concierge Service</h4>
+          <p>Personalized assistance for all your needs, available round the clock</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-spa"></i>
+          </div>
+          <h4>Luxury Spa & Wellness</h4>
+          <p>Rejuvenate with our world-class spa treatments and wellness programs</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h4>Gourmet Dining</h4>
+          <p>Exquisite culinary experiences with our Michelin-starred chefs</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-swimming-pool"></i>
+          </div>
+          <h4>Infinity Pool</h4>
+          <p>Stunning infinity pool with panoramic views of the city skyline</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <h4>Fitness Center</h4>
+          <p>State-of-the-art fitness equipment with personal training available</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <h4>High-Speed WiFi</h4>
+          <p>Complimentary high-speed internet throughout the property</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Rooms Section -->
+  <section class="featured-rooms">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-subtitle">— LUXURY ACCOMMODATIONS —</h3>
+        <h2 class="section-title">Our Signature Suites</h2>
+        <p class="section-description">
+          Indulge in our meticulously designed rooms and suites, each offering unparalleled comfort and style
+        </p>
+      </div>
+
+      <div class="rooms-grid">
+        <div class="room-card">
+          <div class="room-image">
+            <img src="../Photos/Room-1.jpg" alt="Presidential Suite">
+            <div class="room-overlay">
+              <a href="#" class="btn btn-view">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="room-content">
+            <h4>Presidential Suite</h4>
+            <p class="room-price">₹25,999 / night</p>
+            <p class="room-description">
+              Ultimate luxury with panoramic views, private balcony, and exclusive amenities
+            </p>
+            <div class="room-features">
+              <span><i class="fas fa-bed"></i> King Bed</span>
+              <span><i class="fas fa-bath"></i> Jacuzzi</span>
+              <span><i class="fas fa-tv"></i> 65" TV</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card">
+          <div class="room-image">
+            <img src="../Photos/Room-2.jpg" alt="Executive Suite">
+            <div class="room-overlay">
+              <a href="#" class="btn btn-view">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="room-content">
+            <h4>Executive Suite</h4>
+            <p class="room-price">₹18,999 / night</p>
+            <p class="room-description">
+              Spacious suite with separate living area and premium business amenities
+            </p>
+            <div class="room-features">
+              <span><i class="fas fa-bed"></i> King Bed</span>
+              <span><i class="fas fa-coffee"></i> Mini Bar</span>
+              <span><i class="fas fa-wifi"></i> High-Speed WiFi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card">
+          <div class="room-image">
+            <img src="../Photos/Room-3.jpg" alt="Deluxe Room">
+            <div class="room-overlay">
+              <a href="#" class="btn btn-view">VIEW DETAILS</a>
+            </div>
+          </div>
+          <div class="room-content">
+            <h4>Deluxe Room</h4>
+            <p class="room-price">₹12,999 / night</p>
+            <p class="room-description">
+              Elegant room with premium amenities and stunning city views
+            </p>
+            <div class="room-features">
+              <span><i class="fas fa-bed"></i> Queen Bed</span>
+              <span><i class="fas fa-bath"></i> Rain Shower</span>
+              <span><i class="fas fa-tv"></i> 55" TV</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-all-rooms">
+        <a href="./Rooms/rooms.html" class="btn btn-primary">VIEW ALL ROOMS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers Promo Section -->
+  <section class="special-offers-promo">
+    <div class="container">
+      <div class="promo-content">
+        <h2>Exclusive Special Offers</h2>
+        <p>Don't miss out on our limited-time deals and packages designed for your luxury experience.</p>
+        <a href="Specialoffers/specialoffer.html" class="btn btn-primary">VIEW SPECIAL OFFERS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-subtitle">— GUEST EXPERIENCES —</h3>
+        <h2 class="section-title">What Our Guests Say</h2>
+        <p class="section-description">
+          Hear from our valued guests about their exceptional experiences at Luxury Hotel King
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Absolutely breathtaking! The Presidential Suite exceeded all expectations. 
+              The attention to detail and impeccable service made our anniversary unforgettable."
+            </p>
+            <div class="testimonial-author">
+              <h5>Sarah Johnson</h5>
+              <p>New York, USA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "The spa treatments were divine, and the infinity pool with city views was magical. 
+              Perfect blend of luxury and comfort. Will definitely return!"
+            </p>
+            <div class="testimonial-author">
+              <h5>Michael Chen</h5>
+              <p>Singapore</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Exceptional service from check-in to check-out. The concierge went above and beyond 
+              to make our business trip seamless and enjoyable."
+            </p>
+            <div class="testimonial-author">
+              <h5>Emma Rodriguez</h5>
+              <p>London, UK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Stay Updated with Exclusive Offers</h2>
+        <p>Subscribe to our newsletter and be the first to receive special promotions and luxury travel insights</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="luxury-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3> HOTEL KING</h3>
+          <p>Where every stay is a masterpiece of luxury and comfort. Experience unparalleled hospitality and create memories that last a lifetime.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>QUICK LINKS</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/about.html">About Us</a></li>
+            <li><a href="Rooms/rooms.html">Rooms & Suites</a></li>
+            <li><a href="Services/services.html">Services</a></li>
+            <li><a href="Specialoffers/specialoffer.html">Special Offers</a></li>
+            <li><a href="Contact/contact.html">Contact</a></li>
+        </div>
+
+        <div class="footer-section">
+          <h4>CONTACT INFO</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, City Center</p>
+          <p><i class="fas fa-phone"></i> +91-7828246801</p>
+          <p><i class="fas fa-envelope"></i> info@luxuryhotelking.com</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>NEWSLETTER</h4>
+          <p>Subscribe for exclusive offers and updates</p>
+          <form class="footer-newsletter">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Luxury Hotel King. All rights reserved. | Designed with <i class="fas fa-heart"></i> for luxury travelers</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
